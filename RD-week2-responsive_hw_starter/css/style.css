@@ -42,6 +42,24 @@ div{
   margin: 5px;
   padding: 2px;
 }
+@media screen and (min-width: 772px) {
+  /* Thay đổi bố cục các thẻ div thành 45% chiều rộng viewport */
+  div {
+    width: 45%;
+    /* Lưu ý: Bạn cần chỉnh thêm thuộc tính hiển thị (ví dụ: display: inline-block hoặc float/flex tùy theo cấu trúc starter code gốc) để các div nằm ngang cạnh nhau thành 2 cột */
+  }
+
+  /* Giới hạn chiều cao hình ảnh không quá 30% chiều cao viewport */
+  img {
+    max-height: 30vh;
+  }
+}
+@media screen and (min-width: 998px) {
+  /* Thay đổi bố cục các thẻ div thành 30% chiều rộng viewport */
+  div {
+    width: 30%;
+  }
+}
 
 
 
